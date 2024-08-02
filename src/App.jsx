@@ -1,5 +1,6 @@
 
 import './App.css'
+import Login from './components/auth/Login'
 import Dashboard from './components/dashboard/Dashboard'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
        <Dashboard/>
+       <Login/>
     </div>
   )
 }
